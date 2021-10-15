@@ -120,7 +120,6 @@ const styles = StyleSheet.create({
   },
   textInput: {
     borderRadius: 10,
-    height: 28,
     width: '100%',
   },
   card: {
