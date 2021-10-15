@@ -4,7 +4,7 @@ import AppButton from './components/AppButton';
 import AppIcon from './components/AppIcon';
 import AppTextInput from './components/AppTextInput';
 
-export default function CartScreen() {
+export default function CartScreen({onPress}) {
   const Card = ({image, title, price, color}) => {
     return (
       <View style={styles.card}>
@@ -93,6 +93,7 @@ export default function CartScreen() {
             fontSize={18}
             color="#fff"
             style={styles.button}
+            onPress={onPress}
           />
         </View>
       </View>

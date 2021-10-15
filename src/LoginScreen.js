@@ -34,6 +34,7 @@ export default function LoginScreen({onPress}) {
           placeholder="Email"
           height={11}
           width={16}
+          borderBottomWidth={1}
         />
         <AppTextInput
           image={require('./assets/lock.png')}
